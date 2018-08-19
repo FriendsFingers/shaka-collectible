@@ -1,0 +1,16 @@
+{
+  "package_name": "ShakaCollectible",
+  "version": "1.0.0",
+  "description": "An ERC721 NFT Token that represents a Collectible Shaka",
+  "authors": [
+    "Vittorio Minacori (@vittominacori)"
+  ],
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "erc721"
+  ],
+  "license": "MIT"
+}
