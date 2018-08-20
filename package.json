@@ -1,0 +1,29 @@
+{
+  "name": "shaka-collectible-dapp",
+  "version": "0.0.1",
+  "description": "The DApp that represents a Collectible Shaka",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "vuepress build && sh scripts/deploy.sh"
+  },
+  "author": "FriendsFingers",
+  "contributors": [
+    {
+      "name": "Vittorio Minacori",
+      "url": "https://github.com/vittominacori"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendsfingers/shaka-collectible.git"
+  },
+  "homepage": "https://github.com/friendsfingers/shaka-collectible/",
+  "bugs": {
+    "url": "https://github.com/friendsfingers/shaka-collectible/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  }
+}
