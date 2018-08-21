@@ -42,7 +42,7 @@ npm run lint:all:fix
 ```
 
 
-## Compile, migrate and test the contracts.
+## Compile and test the contracts.
  
 
 Open the Truffle console

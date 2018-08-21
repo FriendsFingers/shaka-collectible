@@ -1,5 +1,5 @@
 {
-  "name": "ShakaCollectible",
+  "name": "shaka-collectible",
   "version": "1.0.0",
   "description": "An ERC721 NFT Token that represents a Collectible Shaka",
   "main": "truffle-config.js",
