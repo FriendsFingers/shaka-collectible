@@ -1,7 +1,4 @@
 ---
 title: View your Shaka Collectible Token
+component: ViewToken
 ---
-
-<ClientOnly>
-<ViewToken/>
-</ClientOnly>

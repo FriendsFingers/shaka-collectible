@@ -12,6 +12,8 @@ module.exports = {
     ['script', { src: 'assets/js/web3.min.js' }]
   ],
   themeConfig: {
-    search: false
+    navbar: false,
+    search: false,
+    editLinks: false,
   }
 };

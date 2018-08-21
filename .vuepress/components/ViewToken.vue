@@ -1,13 +1,23 @@
 <template>
-    <div v-if="!loading">
-        {{ token }}
-    </div>
+    <b-row class="p-3">
+        <b-col md="6" offset-md="3" class="p-3">
+            <shaka-collectible v-if="!loading"
+                               v-bind:main-color="token.mainColor"
+                               v-bind:background-color="token.backgroundColor"
+                               v-bind:border-color="token.borderColor"
+                               v-bind:message="token.message"
+                               v-bind:show-message="true">
+            </shaka-collectible>
+        </b-col>
+    </b-row>
 </template>
 
 <script>
   import dapp from '../mixins/dapp';
+  import ShakaCollectible from "./ShakaCollectible";
 
   export default {
+    components: { ShakaCollectible },
     mixins: [
       dapp
     ],
@@ -33,8 +43,8 @@
       getToken() {
         this.instances.token.getToken(this.token.id, (err, result) => {
           if (err) {
-            alert(err);
-            this.loading = false;
+            alert('Some error occurs');
+            console.log(err);
             return;
           }
           this.formatStructure(result);
@@ -42,11 +52,16 @@
       },
       formatStructure(structure) {
         this.token.beneficiary = structure[0];
-        this.token.mainColor = '#' + this.web3.toAscii(structure[1]);
-        this.token.backgroundColor = '#' + this.web3.toAscii(structure[2]);
-        this.token.borderColor = '#' + this.web3.toAscii(structure[3]);
-        this.token.message = structure[4];
-        this.loading = false;
+
+        if (this.token.beneficiary.toString() === '0x0000000000000000000000000000000000000000') {
+          alert('Token not found!')
+        } else {
+          this.token.mainColor = '#' + this.web3.toAscii(structure[1]);
+          this.token.backgroundColor = '#' + this.web3.toAscii(structure[2]);
+          this.token.borderColor = '#' + this.web3.toAscii(structure[3]);
+          this.token.message = structure[4];
+          this.loading = false;
+        }
       },
       getParam(param) {
         const vars = {};
