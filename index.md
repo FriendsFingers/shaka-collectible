@@ -1,4 +1,4 @@
 ---
 title: Home
-component: ListToken
+component: Home
 ---

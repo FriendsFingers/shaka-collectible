@@ -1,6 +1,6 @@
 <template>
-    <b-row class="p-3">
-        <b-col v-for="item in tokenList" :key="item.id" class="p-3">
+    <b-row>
+        <b-col md="2" sm="4" v-for="item in tokenList" :key="item.id" class="p-2">
             <b-link :to="{ path: 'view.html', query: { id: item.id } }">
                 <shaka-collectible v-bind:main-color="item.mainColor"
                                    v-bind:background-color="item.backgroundColor"
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import dapp from '../mixins/dapp';
+  import dapp from '../../mixins/dapp';
   import ShakaCollectible from "./ShakaCollectible";
 
   export default {
@@ -63,7 +63,7 @@
         this.tokenList.push(token);
 
         if (this.tokenList.length < this.progressiveId) {
-          this.getToken(++token.id);
+          this.getToken(++tokenId);
         }
       },
     },

@@ -1,20 +1,22 @@
 <template>
-    <b-row class="p-3">
-        <b-col md="6" offset-md="3" class="p-3">
-            <shaka-collectible v-if="!loading"
-                               v-bind:main-color="token.mainColor"
-                               v-bind:background-color="token.backgroundColor"
-                               v-bind:border-color="token.borderColor"
-                               v-bind:message="token.message"
-                               v-bind:show-message="true">
-            </shaka-collectible>
-        </b-col>
-    </b-row>
+    <b-container>
+        <b-row>
+            <b-col md="6" offset-md="3" class="p-3">
+                <shaka-collectible v-if="!loading"
+                                   v-bind:main-color="token.mainColor"
+                                   v-bind:background-color="token.backgroundColor"
+                                   v-bind:border-color="token.borderColor"
+                                   v-bind:message="token.message"
+                                   v-bind:show-message="true">
+                </shaka-collectible>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
   import dapp from '../mixins/dapp';
-  import ShakaCollectible from "./ShakaCollectible";
+  import ShakaCollectible from "./elements/ShakaCollectible";
 
   export default {
     components: { ShakaCollectible },
