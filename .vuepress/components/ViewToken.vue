@@ -1,7 +1,7 @@
 <template>
     <b-container>
-        <b-row>
-            <b-col md="6" offset-md="3" class="p-3">
+        <b-row class="p-2">
+            <b-col md="6" offset-md="3" class="mt-4">
                 <shaka-collectible v-if="!loading"
                                    v-bind:main-color="token.mainColor"
                                    v-bind:background-color="token.backgroundColor"
