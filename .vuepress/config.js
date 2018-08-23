@@ -9,7 +9,16 @@ module.exports = {
     networkName: "Rinkeby Test Network",
   },
   head: [
-    ['script', { src: 'assets/js/web3.min.js' }]
+    ['meta', { property: 'og:image', content: 'https://collectibles.friendsfingers.com/assets/images/ogimage.png' }],
+    ['script', { src: 'assets/js/web3.min.js' }],
+    ['script', { async: 'async', src: 'https://www.googletagmanager.com/gtag/js?id=UA-111269229-3'}],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}" +
+      "gtag('js', new Date());" +
+      "gtag('config', 'UA-111269229-3');"
+    ],
   ],
   themeConfig: {
     navbar: false,
