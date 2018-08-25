@@ -4,7 +4,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/friendsfingers/shaka-collectible/badge.svg?branch=master)](https://coveralls.io/github/friendsfingers/shaka-collectible?branch=master)
 
 
-An ERC721 NFT Token that represents a Collectible Shaka
+An ERC721 NFT Token that represents a Collectible Shaka.
+
+You can view the DApp working [here](https://collectibles.friendsfingers.com) and explore the DApp Source Code [here](https://github.com/friendsfingers/shaka-collectible/tree/dapp).
 
 
 ## Installation
