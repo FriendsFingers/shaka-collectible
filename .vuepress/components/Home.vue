@@ -4,13 +4,14 @@
             <b-col class="p-2">
                 <b-jumbotron bg-variant="light" class="mt-4">
                     <template slot="lead">
-                        <b>Shaka Collectibles Tokens</b> represent a Digital Collectible issued by <b>FriendsFingers</b>,
+                        <b>Shaka Collectible Tokens</b> represent a Digital Collectible issued by <b>FriendsFingers</b>,
                         the Smart Contracts based Crowdfunding platform.
                     </template>
                     <hr class="my-4">
-                    <p>Discover more about FriendsFingers or read the Source Code of our Collectibles.</p>
-                    <b-btn variant="outline-success" size="lg" class="mt-2" target="_blank" href="https://www.friendsfingers.com">FriendsFingers</b-btn>
-                    <b-btn variant="outline-info" size="lg" class="mt-2" target="_blank" href="https://github.com/friendsfingers/shaka-collectible">Source Code</b-btn>
+                    <p>Each Shaka Collectible is an ERC721 Token born by a Smart Contract living on the Ethereum Blockchain... 🤔</p>
+                    <p>Want to learn more about Collectibles?
+                        Read our <b-link target="_blank" href="https://medium.com/friendsfingers/wtf-are-collectible-or-non-fungible-tokens-54b36eda2af">blog post</b-link>
+                        or explore the <b-link target="_blank" href="https://github.com/friendsfingers/shaka-collectible">Source Code</b-link>.</p>
                 </b-jumbotron>
             </b-col>
         </b-row>
