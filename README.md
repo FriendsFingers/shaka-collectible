@@ -12,11 +12,10 @@ You can view the DApp working [here](https://collectibles.friendsfingers.com) an
 ## Installation
 
 
-Install truffle, compiler and linter.
+Install truffle.
 
 ```bash
 npm install -g truffle      // Version 4.1.13+ required.
-npm install -g solium       // Version 1.1.8+ required.
 ```
 
 
@@ -34,10 +33,10 @@ npm install
 Use Solium
 
 ```bash
-npm run lint:all
+npm run lint:sol
 ```
 
-To fix 
+Lint and fix all
 
 ```bash
 npm run lint:all:fix
