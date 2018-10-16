@@ -8,7 +8,7 @@
             <b-navbar-nav class="ml-auto">
                 <b-nav-item href="/">All tokens</b-nav-item>
                 <b-nav-item target="_blank" href="https://www.friendsfingers.com/">FriendsFingers</b-nav-item>
-                <b-nav-item target="_blank" href="https://github.com/friendsfingers">GitHub</b-nav-item>
+                <b-nav-item target="_blank" href="https://github.com/FriendsFingers">GitHub</b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>

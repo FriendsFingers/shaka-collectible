@@ -11,7 +11,7 @@
                     <p>Each Shaka Collectible is an ERC721 Token born by a Smart Contract living on the Ethereum Blockchain... 🤔</p>
                     <p>Want to learn more about Collectibles?
                         Read our <b-link target="_blank" href="https://medium.com/friendsfingers/wtf-are-collectible-or-non-fungible-tokens-54b36eda2af">blog post</b-link>
-                        or explore the <b-link target="_blank" href="https://github.com/friendsfingers/shaka-collectible">Source Code</b-link>.</p>
+                        or explore the <b-link target="_blank" href="https://github.com/FriendsFingers/shaka-collectible">Source Code</b-link>.</p>
                 </b-jumbotron>
             </b-col>
         </b-row>
