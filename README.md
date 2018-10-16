@@ -1,7 +1,7 @@
 # Shaka Collectible
 
-[![Build Status](https://travis-ci.org/friendsfingers/shaka-collectible.svg?branch=master)](https://travis-ci.org/friendsfingers/shaka-collectible)
-[![Coverage Status](https://coveralls.io/repos/github/friendsfingers/shaka-collectible/badge.svg?branch=master)](https://coveralls.io/github/friendsfingers/shaka-collectible?branch=master)
+[![Build Status](https://travis-ci.org/FriendsFingers/shaka-collectible.svg?branch=master)](https://travis-ci.org/FriendsFingers/shaka-collectible)
+[![Coverage Status](https://coveralls.io/repos/github/FriendsFingers/shaka-collectible/badge.svg?branch=master)](https://coveralls.io/github/FriendsFingers/shaka-collectible?branch=master)
 
 
 An ERC721 NFT Token that represents a Collectible Shaka.

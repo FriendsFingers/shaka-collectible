@@ -35,11 +35,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/friendsfingers/shaka-collectible.git"
+    "url": "https://github.com/FriendsFingers/shaka-collectible.git"
   },
-  "homepage": "https://github.com/friendsfingers/shaka-collectible/",
+  "homepage": "https://github.com/FriendsFingers/shaka-collectible/",
   "bugs": {
-    "url": "https://github.com/friendsfingers/shaka-collectible/issues"
+    "url": "https://github.com/FriendsFingers/shaka-collectible/issues"
   },
   "license": "MIT",
   "devDependencies": {
