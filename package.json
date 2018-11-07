@@ -23,6 +23,9 @@
     "url": "https://github.com/friendsfingers/shaka-collectible/issues"
   },
   "license": "MIT",
+  "dependencies": {
+    "web3": "0.20.6"
+  },
   "devDependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
     "node-sass": "^4.9.3",
